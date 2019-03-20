@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.css';
+
+.white-color {
+    color: #fff !important;
+}
+a { 
+    cursor: pointer;
+}
+.display-on {
+    display: inline;
+    margin-left: 5px;
+}
+.text-bold {
+    font-weight: bold;
+}
+
+.ng-valid,
+.ng-valid.required {
+  border-color: lightgreen;
+}
+
+.ng-invalid:not(form) {
+    border-color: lightcoral;
+}
+
+@media screen and (max-width: 600px) {
+    .display-on {
+        display: none;
+        margin-left: 0;
+    }
+    .width-30 {
+        width: 100%;
+    }
+}
